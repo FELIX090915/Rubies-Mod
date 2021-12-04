@@ -13,7 +13,7 @@ public class ModBlocks {
     public static final Block RUBY_BLOCK = new Block(FabricBlockSettings
             .of(Material.METAL)
             .requiresTool()
-            .strength(5f, 6)
+            .strength(3f, 3)
             .sounds(BlockSoundGroup.METAL)
     );
 
