@@ -1,5 +1,8 @@
 {
     "item.frubies.ruby": "Ruby",
     "block.frubies.ruby_block": "Ruby Block",
-    "itemGroup.frubies.general": "Rubies"
+    "itemGroup.frubies.general": "Rubies",
+    "item.frubies.ruby_sword": "Ruby Sword",
+    "item.frubies.ruby_shovel": "Ruby Shovel"
+
 }

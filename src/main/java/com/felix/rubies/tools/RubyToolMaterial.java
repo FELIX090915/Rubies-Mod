@@ -5,6 +5,9 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public class RubyToolMaterial implements ToolMaterial {
+
+    public static final RubyToolMaterial INSTANCE = new RubyToolMaterial();
+
     @Override
     public int getDurability() {
         return 1797;

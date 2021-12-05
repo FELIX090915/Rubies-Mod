@@ -1,8 +1,10 @@
 package com.felix.rubies.registry;
 
 import com.felix.rubies.Rubies;
+import com.felix.rubies.tools.RubyTools;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ToolItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -17,6 +19,10 @@ public class ModItems {
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby"), RUBY);
         Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_block"), RUBY_BLOCK);
+
+        // Tools
+        Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_shovel"), RubyTools.RUBY_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_sword"), RubyTools.RUBY_SWORD);
     }
 
 
