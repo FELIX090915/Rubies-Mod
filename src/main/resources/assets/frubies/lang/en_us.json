@@ -3,6 +3,8 @@
     "block.frubies.ruby_block": "Ruby Block",
     "itemGroup.frubies.general": "Rubies",
     "item.frubies.ruby_sword": "Ruby Sword",
-    "item.frubies.ruby_shovel": "Ruby Shovel"
-
+    "item.frubies.ruby_shovel": "Ruby Shovel",
+    "item.frubies.ruby_axe": "Ruby Axe",
+    "item.frubies.ruby_pickaxe": "Ruby Pickaxe",
+    "item.frubies.ruby_hoe": "Ruby Shovel"
 }

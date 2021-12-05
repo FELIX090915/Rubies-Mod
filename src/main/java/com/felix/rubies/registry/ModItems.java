@@ -23,6 +23,9 @@ public class ModItems {
         // Tools
         Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_shovel"), RubyTools.RUBY_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_sword"), RubyTools.RUBY_SWORD);
+        Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_pickaxe"), RubyTools.RUBY_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_axe"), RubyTools.RUBY_AXE);
+        Registry.register(Registry.ITEM, new Identifier(Rubies.MOD_ID, "ruby_hoe"), RubyTools.RUBY_HOE);
     }
 
 

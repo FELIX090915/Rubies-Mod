@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "S",
+        "S"
+    ],
+    "key": {
+        "#": {
+            "item": "frubies:ruby"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "frubies:ruby_shovel",
+        "count": 1
+    }
+}

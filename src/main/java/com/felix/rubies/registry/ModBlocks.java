@@ -17,7 +17,15 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.METAL)
     );
 
+    public static final BLock RUBY_ORE_BLOCK = new Block(FabricBlockSettings
+            .of(Material.STONE)
+            .requiresTool()
+            .strength(2f, 3)
+            .sounds(BlockSoundGroup.STONE)
+    );
+
     public static void registerBlocks() {
         Registry.register(Registry.BLOCK, new Identifier(Rubies.MOD_ID, "ruby_block"), RUBY_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Rubies.MOD_ID, "ruby_ore_block"), RUBY_BLOCK);
     }
 }
